@@ -1,4 +1,4 @@
-<img src="appendix/icon.png" width="100" alt="alt text">
+<img src="icon.png" width="100" alt="alt text">
 
 # Elasticsearch Doctor Query and Index Prototype
 
