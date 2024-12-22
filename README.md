@@ -8,7 +8,7 @@ The system is composed of two primary scripts. The first script, `load_2_elastic
 
 ## Data Processing and Indexing
 
-Data is ingested from an Excel spreadsheet (`ServiceBook.xlsx`) containing doctor information such as names, specialties, contact details, and locations. The script processes each entry, generating embeddings for semantic similarity using the `.multilingual-e5-small` model. These embeddings enable advanced search capabilities by storing them as dense vectors in the Elasticsearch index.
+Data is ingested from an Excel spreadsheet (`ServiceBook.xlsx`) containing doctor information such as names, specialties, contact details, and locations. The script processes each entry, generating embeddings for semantic similarity using the `multilingual-e5-small` model. These embeddings enable advanced search capabilities by storing them as dense vectors in the Elasticsearch index.
 
 The index, named `doctors_il_db`, is created with predefined mappings to accommodate the data schema. Each record is enriched with its corresponding embedding, which is later used during query-time search for precise matching.
 
