@@ -1,3 +1,5 @@
+<img src="appendix/icon.png" width="100" alt="alt text">
+
 # Elasticsearch Doctor Query and Index Prototype
 
 This prototype demonstrates a data pipeline and search system for processing and indexing doctor-related data from spreadsheets into Elasticsearch. It supports semantic search and question answering through embedding-based retrieval methods.
